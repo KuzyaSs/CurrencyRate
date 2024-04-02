@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">Курс валют</string>
+    <string name="currency_rate_with_date">Курс валют на %s</string>
+    <string name="connection_failure_exception">Ошибка соединения</string>
+    <string name="rate">%f ₽</string>
+    <string name="try_again">Повторить</string>
+    <string name="positiveRateChange">(+%s ₽)</string>
+    <string name="negativeRateChange">(%s ₽)</string>
 </resources>

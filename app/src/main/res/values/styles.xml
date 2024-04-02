@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BaseTextView">
+        <item name="android:textSize">@dimen/base_text_size</item>
+        <item name="android:textColor">?attr/colorOnBackground</item>
+    </style>
+
+    <style name="LargeTextView" parent="BaseTextView">
+        <item name="android:textSize">@dimen/large_text_size</item>
+    </style>
+
+    <style name="ExtraLargeTextView" parent="BaseTextView">
+        <item name="android:textSize">@dimen/extra_large_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="ProgressBar" parent="Widget.Material3.CircularProgressIndicator">
+        <item name="android:indeterminate">true</item>
+    </style>
+</resources>
